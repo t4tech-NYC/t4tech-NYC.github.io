@@ -1,12 +1,45 @@
 body, html {
     margin: 0;
-    padding: 0
+    padding: 0;
+    line-height: 35px;
+    color: #425363;
+    background: linear-gradient(137deg,#e9e5fc 6%,#f4e5fc 12%,#fce5f4 18%,#FFFFFF 40%) fixed no-repeat;
+    font-family: 'Montseratt', sans-serif;
 }
 
-h1 {
+.titleHeader {
     width: 100%;
-    font-size: 400%;
-    color: #c9a3f7;
+    font-size: 300%;
+    color: #467199;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
+
+.mainTitle {
+    font-size: 600%;
+    color: #f99993;
+    width: auto;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.contentDiv {
+    width: 50%;
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 0 40px 0 40px;
+    border: 10px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.codeOfConduct {
+    font-size: 1.7em;
+    text-align: center;
+}
+
+email {}
