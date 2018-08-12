@@ -90,7 +90,11 @@ header, section {
   color: #cc108d;
 }
 
-
+.event:not(:last-child) {
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 10px solid #FFFFFF;
+}
 .eventTitle {
   line-height: 1.3;
 }
