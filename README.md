@@ -1,2 +1,5 @@
 ## Welcome!
-This page acts as the homepage and main source of info for all things t4tech. Got some advice, critiques, insight into better design (I am not a designer, can you tell?) ??? Contribute to this repo! Submit a PR and if we love your suggestion we will be happy to credit you on the page :)
+Here's the source code for the live t4tech gh-pages site. Check it out here: https://t4tech-nyc.github.io/
+
+## BIG THANKS TO:
+Dee, Matt, and Sayan for making the site look oh so beautiful!
