@@ -15,6 +15,14 @@ body, html {
     font-family: 'Montserrat', sans-serif;
 }
 
+.smallHeader {
+    width: 100%;
+    font-size: 150%;
+    color: #cc108d;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .mainTitle {
     font-size: 600%;
     color: #f99993;
@@ -41,5 +49,8 @@ body, html {
     font-size: 1.7em;
     text-align: center;
 }
+
+.codeOfConductText {
+    font-size: .7em;
 
 email {}
