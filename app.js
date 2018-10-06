@@ -1,6 +1,8 @@
 $(document).ready(function() {
   $('section').hide()
 
+  $('.aboutSection').toggle()
+
   $('.aboutButton').click(function () {
     $('section').hide()
     $('.aboutSection').toggle()
