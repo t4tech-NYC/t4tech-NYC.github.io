@@ -9,14 +9,42 @@
         <link rel="stylesheet" href="./normalize.css">
         <link rel="stylesheet" href="./styles.css">
         <link rel="icon" type="image" href="./favicon.ico">
+        <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
     </head>
     <body>
       <header>
         <div class="container">
-          <h1 class="logo">t4tech</h1>
+          <img class="logo" src="img/logo_loop.gif"></img>
         </div>
       </header>
-      
+
+      <div id="navBar">
+        <ul>
+          <div class="navElement">
+            <li class="navElementTitle">About</li>
+          </div>
+
+          <div class="navElement">
+            <li class="navElementTitle">Upcoming Events</li>
+          </div>
+
+          <div class="navElement">
+            <li class="navElementTitle">Previous Workshops</li>
+          </div>
+
+          <div class="navElement">
+            <li class="navElementTitle">Collaborators</li>
+          </div>
+
+          <div class="navElement">
+            <li class="navElementTitle">Contact</li>
+          </div>
+        </ul>
+      </div>
+
       <section class="newsSection">
         <div class="container">
           <div class="box">
@@ -25,7 +53,7 @@
           </div>
         </div>
       </section>
-      
+
       <section class="aboutSection">
         <div class="container">
           <div class="box">
@@ -34,16 +62,16 @@
           </div>
         </div>
       </section>
-      
+
       <section class="codeOfConductSection">
         <div class="container">
           <div class="box">
             <h2 class="sectionHeader">Code of Conduct</h2>
             <p class="codeOfConductPreamble">All of our workshops, gatherings, and online resources aim to create a safer space that's anti-exclusionary and inherently flexible.
             In that effort we enforce our code of conduct:</p>
-            <p class="codeOfConductText">Every t4tech event, online platform, organizing space, and networked communications space adheres to the following code of conduct. 
-            No hate speech, including racist, misogynist, xenophobic, white-nationalist, transphobic, homophobic, classist, ableist, or police-endorsing language of any kind is permitted, 
-            and anyone doing so will be removed and barred from the space as well as any following events. 
+            <p class="codeOfConductText">Every t4tech event, online platform, organizing space, and networked communications space adheres to the following code of conduct.
+            No hate speech, including racist, misogynist, xenophobic, white-nationalist, transphobic, homophobic, classist, ableist, or police-endorsing language of any kind is permitted,
+            and anyone doing so will be removed and barred from the space as well as any following events.
             Our events are for the sole purpose of creating safer spaces for trans and GNC people to learn about computer science, software development, virtual technologies, and digital security.
             <p>tldr: refer to the famous line from Grandmother Kate Bornstein, “Don’t be mean.”</p>
           </div>
@@ -55,38 +83,16 @@
           <div class="box">
             <h2 class="sectionHeader">Upcoming Events</h2>
             <div class="event">
-              <h3 class="eventTitle"></h3>
+              <h3 class="eventTitle">Stay Tuned...</h3>
               <p class="eventDate"></p>
               <p class="eventLocation"><a href="" target="blank"></a> </p>
               <div class="eventDescription">
-                </div>
-            </div>
-              
-              <div class="event">
-              <h3 class="eventTitle">Freelancing in Tech while Trans and/or Queer</h3>
-              <p class="eventDate">October 2, 7-9pm</p>
-              <p class="eventLocation"><a href="http://www.bluestockings.com" target="blank">Bluestockings</a> </p>
-              <div class="eventDescription">
-                  <p>
-                  Freelancing can be fun; freelancing can be a horrible. Freelancing can be lucrative; freelancing can be make you broke. 
-                  Freelancing can give you freedom; freelancing can give you nightmares. If you're trans, queer, or part of an under-represented group in tech, 
-                  freelancing can be all of these things plus a whole lot more.
-                  </p>
-                  <p>
-                  In this hands on workshop, Jade, the founder and CEO of Data Automatica, a tech consultancy and 1-person collective that does not legally exist yet, 
-                  is going to share with you their secrets to success as a queer/transgender freelancer. They'll cover ways to protect yourself from abusive clients, 
-                  how to negotiate "like a man" (whatever your gender may be!), and strategies on how to thrive as an outsider working in a toxic industry.
-                  </p>
-                  <p>
-                  The workshop will draw from their  experiences in tech, but will cover topics like negotiating and interviewing that are applicable to other industries as 
-                  well as to people pursuing full time employment instead of contracts.
-                  </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      
+
       <section class="contactSection">
         <div class="container">
           <div class="box">
@@ -96,6 +102,8 @@
           </div>
         </div>
       </section>
+
+      <script src="app.js"></script>
 
     </body>
 </html>
