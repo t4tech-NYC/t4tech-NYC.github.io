@@ -77,12 +77,14 @@ header, section {
 #navBar {
   background-color: #fce5f4;
   border: 5px solid #e9e5fc;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .navElement {
   display: inline;
   list-style-type: none;
-  margin: 0 20px 0 ;
+  margin: 0 10px 0 10px;
   padding: 0;
   transition: .3s;
 }
@@ -93,12 +95,16 @@ header, section {
 }
 
 ul {
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 960px;
+  text-align: center;
 }
 
-li { display: inline; }
+li {
+  display: inline;
+  margin: 0 auto;
+ }
 
 
 
