@@ -75,8 +75,8 @@ header, section {
 }
 
 #navBar {
-  background-color: #fce5f4;
-  border: 5px solid #e9e5fc;
+  background-color: #e9e5fc;
+  border: 5px solid #fce5f4;
   width: 100%;
   margin: 0 auto;
 }
